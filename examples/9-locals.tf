@@ -6,4 +6,5 @@ locals {
   resource_prefix = "${var.project}-${var.environment}"
 }
 
+# How you can reference the local variables
 # local.resource_prefix

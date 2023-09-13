@@ -8,5 +8,6 @@ data "aws_ssm_parameter" "s3_bucket_name" {
   name = "/rp/s3BucketName"
 }
 
+# How you can reference the data blocks
 # data.aws_ssm_parameter.s3_bucket_name.value
 # data.aws_iam_role.s3_bucket_access.arn

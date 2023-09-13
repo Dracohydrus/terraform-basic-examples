@@ -4,6 +4,7 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "HelloWorld"
+    # You could also add things like
     # environment = "dev"
     # project     = "terraform"
   }

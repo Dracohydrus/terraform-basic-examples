@@ -7,5 +7,6 @@ resource "aws_api_gateway_domain_name" "api_domain_name" {
 }
 
 resource "aws_api_gateway_base_path_mapping" "api_mapping" {
-  # domain_name = 
+  # You can see how repeditive this is getting
+  domain_name = aws_api_gateway_domain_name.api_domain_name.domain_name
 }
